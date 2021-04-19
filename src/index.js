@@ -1,5 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./views/App";
+import SimpleApp from "./views/SimpleApp";
+import "./index.module.scss";
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(
+    <div className="app">
+        <SimpleApp />
+    </div>,
+    document.getElementById("app"),
+);

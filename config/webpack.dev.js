@@ -16,7 +16,7 @@ module.exports = merge(config, {
         contentBase: path.resolve(paths.appDist),
         open: true,
         clientLogLevel: "silent",
-        port: 3000,
+        port: 8080,
         liveReload: false,
         watchContentBase: true,
         hot: true,
