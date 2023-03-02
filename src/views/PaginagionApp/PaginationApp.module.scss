@@ -1,0 +1,17 @@
+.dragDropWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.paginationWrapper {
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+        }
+    }
+}
